@@ -1,0 +1,101 @@
+/* PostList.css */
+.container {
+  padding: 20px;
+}
+
+.text-primary {
+  color: #242731 !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.add-new-btn {
+  width: max-content !important;
+  background-color: #3a4057;
+  color: white;
+  padding: 10px 20px;
+}
+
+.add-new-btn:hover {
+  border: 1px solid #3a4057;
+  background-color: white;
+  color: #3a4057;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.post-list-table thead {
+  vertical-align: middle;
+  height: 58px;
+}
+
+.post-list-table th {
+  background-color: #6a7089;
+  color: white;
+}
+
+.post-list-table tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-width: 1px;
+}
+
+.post-list-table td {
+  vertical-align: middle;
+}
+
+.title-circle {
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #f5f8ff;
+  color: #3a4057e6;
+  font-size: 30px;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+.post-list {
+  color: #555370;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #555370;
+}
+
+.view-btn {
+  width: max-content;
+  font-weight: 700;
+}
+
+.table {
+  --bs-table-striped-bg: #fff
+}
+
+.page-link {
+  margin-right: 8px;
+  border-radius: 4px;
+  border-color: #242731 !important;
+  color: #242731 !important;
+}
+
+.active .page-link {
+  background-color: #242731 !important;
+  color: #fff !important;
+}

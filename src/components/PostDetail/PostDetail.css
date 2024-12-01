@@ -1,0 +1,67 @@
+/* PostDetail.css */
+
+.post-header-text {
+    color: #3a4057e6 !important;
+}
+
+.card {
+    border-radius: 12px;
+    color: #3a4057e6;
+}
+
+.title-circle {
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #f5f8ff;
+    color: #3a4057e6;
+    font-size: 30px;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.detail-container .btn {
+    width: 100px;
+}
+
+.edit-btn {
+    background-color: #3a4057;
+    border-color: #3a4057;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.edit-btn:hover {
+    background-color: #fff !important;
+    color: #3a4057 !important;
+    border-color: #3a4057 !important;
+
+}
+
+.delete-btn {
+    background-color: #fff !important;
+    border-color: #3a4057;
+    color: #3a4057 !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    border-color: #3a4057;
+}
